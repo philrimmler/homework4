@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+
+body{
+	font-family: 'Open Sans';
+}
+*{
+	margin: 0;
+}
+.mainheader{
+	font: bold; 
+	font-weight:800;
+	font-size: 24px;
+	margin-left:20px;
+	padding-top:30px;
+	text-align:left;
+}
+.top{
+	background-image: url(header_bg.jpg);
+	min-height:600px;
+	background-size: 500;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+.benefits{
+	background-color: #f0efef;
+}
+.benefitsheader{
+	font-weight:600;
+}
+.list{
+	font-weight:300;
+}
+.list1 li:nth-child(2n + 2) {
+	font-weight: bold;
+}
+.getitbutton{
+	font-size: 24px;
+	font-style: 800px;
+    background-color: yellow;
+    border-radius: 5px;
+    text-align:center;
+    padding: 10px 40px;
+}
+.quote1{
+	text-align: center;
+	font-weight:600;
+}
+.quote2{
+	color:#FFFFFF;
+	text-align: center;
+	background-image: url(testimonial_bg.jpg);
+	min-height: 400px;
+}
+.relaxrquote{
+	font-style:italic;
+	font-size:18px;
+	font-weight:300;
+	text-align: center;
+	max-height:50px;
+}
+.signupnow{
+	font-size: 50px;
+	text-align: center;
+	background-color: #f9e42e; color:black;
+	height:100px;
+	border-radius: 5px;
+}
+.signupbutton{
+	font-size:24px;
+	background-color:#033048;
+	padding: 10px 40px;
+	box-shadow: 10px 10px 5px #033048;
+}
+.footer{
+	text-align: center;
+	background-color: #606161;
+}
+.footerlogo{
+	color:#f9e42e;
+}
+.copyright{
+	color: white;
+}
+.amanda{
+	font-size: 18px;
+	font-weight: 600px;
+	color: #FFFFFF;
+}
